@@ -1,0 +1,77 @@
+﻿!trail file version No. 2020
+!Creo  TM  9.0  (c) 2023 by PTC Inc.  All Rights Reserved.
+!Exit Logger data:
+!	Process ID: 16748
+!	Application: Creo_Parametric
+!	Start date&time: 2023/06/04  22:09:35
+!	language: spanish
+!	machine type: x86e_win64
+!	datecode: 9.0.1.0
+!	Server: NONE
+!	Workspace: NONE
+!	traceback file: C:\Program Files\PTC\Creo 9.0.1.0\Parametric\bin\traceback.log
+!end Exit Logger data.
+< 0 1.193481 1910 0 0 1007 1920 0 0 1080 13
+!mem_use INCREASE Blocks 943163, AppSize 16317876, SysSize 37757888
+< 0 1.078000 1078 0 0 998 1920 0 0 1080 13
+< 0 1.082000 1082 0 0 998 1920 0 0 1080 13
+< 0 1.082000 1082 0 0 1002 1920 0 0 1080 13
+< 0 1.082000 1082 0 0 1006 1920 0 0 1080 13
+< 0 0.974000 974 0 0 1006 1920 0 0 1080 13
+< 0 0.618000 618 0 0 714 1920 0 0 1080 13
+< 0 0.653000 653 0 0 714 1920 0 0 1080 13
+< 0 0.653000 653 0 0 713 1920 0 0 1080 13
+< 0 0.859259 1625 0 0 725 1920 0 0 1080 13
+< 0 0.859259 1528 0 0 725 1920 0 0 1080 13
+!%CICreo Parametric Educational Edition 9.0.1.0.
+< 0 0.852148 1528 0 0 719 1920 0 0 1080 13
+!mem_use INCREASE Blocks 1006650, AppSize 48549685, SysSize 70315576
+~ Activate `startupdlg` `PushButton2`
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Activate `file_open` `desktop_pb`
+~ Select `file_open` `Ph_list.Filelist` 1 `Cad`
+~ Command `ProFileSelPushOpen@context_dlg_open_cmd` 
+~ Activate `startupdlg` `OKButton`
+!AFX datecode: 9.0.1.0-rc.1 2022.05.02
+!AFX exec path: C:\Program Files\PTC\Creo 9.0.1.0\Common Files\afx\x86e_win64\afx90.dll
+!AFX text path: C:\Program Files\PTC\Creo 9.0.1.0\Common Files\afx\
+~ Command `ProCmdModelOpen` 
+< 2 0.118519 178 0 0 100 1920 0 0 1080 13
+~ Trail `UI Desktop` `UI Desktop` `DLG_PREVIEW_POST` \
+ `file_open`
+~ Open `file_open` `Type`
+~ Trail `UI Desktop` `UI Desktop` `PREVIEW_POPUP_TIMER` \
+ `file_open:Ph_list.Filelist:<NULL>`
+~ Close `file_open` `Type`
+~ Select `file_open` `Type` 1 `db_-1`
+~ Select `file_open` `Ph_list.Filelist` 1 `HotPlate`
+~ Activate `file_open` `Ph_list.Filelist` 1 `HotPlate`
+~ Open `file_open` `Type`
+~ Close `file_open` `Type`
+~ Select `file_open` `Type` 1 `db_-1`
+~ Activate `file_open` `bkw_EMBED_BROWSER_TB_BFH_LAYOUT`
+~ Select `file_open` `Ph_list.Filelist` 1 `Cad`
+~ Activate `file_open` `Ph_list.Filelist` 1 `Cad`
+~ Open `file_open` `Type`
+~ Close `file_open` `Type`
+~ Select `file_open` `Type` 1 `filter_proe_files`
+~ Open `file_open` `Type`
+~ Close `file_open` `Type`
+~ Select `file_open` `Type` 1 `filter_proe_files`
+~ Open `file_open` `Type`
+~ Close `file_open` `Type`
+~ Select `file_open` `Type` 1 `db_-1`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Activate `file_open` `Cancel`
+~ Minimize `main_dlg_cur` `main_dlg_cur`
+~ Restore `main_dlg_cur` `main_dlg_cur`
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Educational Edition se cerrará y se perderá el trabajo que no se haya guardado.
+!               : ¿Desea salir?
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File
